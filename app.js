@@ -48,7 +48,7 @@ async function check(){
             }
         }
         if(isCheck){
-            window.location.href = 'main.html'
+            window.location.href = 'https://inspiring-wing-fa8723.netlify.app/main.html'
         }else {
             alert("Error hha")
         }
