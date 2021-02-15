@@ -13,9 +13,8 @@ submit.addEventListener('click', ()=>{
     let isCheck = true;
     for(let i=0; i<4; i++){
         if(form[i].value == ""){
-            alert("Ta guitsed buglunu uu")
             isCheck = false;
-            console.log(form[i].value);
+            // console.log(form[i].value);
         }
     }
     if(isCheck){
@@ -26,6 +25,8 @@ submit.addEventListener('click', ()=>{
             phone_number:number.value
         })
         alert("Succesful")
+    }else {
+        alert("Ta guitsed buglunu uu")
     }
     
 })
